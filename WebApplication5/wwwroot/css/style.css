@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #dfebff;
+}
+
+.invitation-card{
+    color: rgb(239, 239, 239);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 24rem;
+    border-radius: 2rem;
+    border: .2rem  solid #004cc5;
+    background-color: #4f90f9;
+    padding: 2rem 4rem;
+    box-shadow: 20px 10px 40px #3f577d;
+}
+
+.field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0;
+    border: .2rem  solid #71cdff;
+    border-radius: 2rem;
+    height: 2.2rem;
+    padding: 0 .3rem 0 .5rem;
+}
+
+.field p{
+    text-wrap: nowrap;
+}
+
+.field input{
+    border: none;
+    border-radius: 2rem;
+    margin-left: .4rem;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    color: rgb(239, 239, 239);
+}
+
+.submit{
+    color: rgb(239, 239, 239);
+    border: .1rem solid rgb(239, 239, 239);
+    outline: none;
+    border-radius: 2rem;
+    padding: .8rem;
+    background: #4f90f9;
+}
+
+.submit:hover{
+    color: #4f90f9;
+    border: 1px solid #4f90f9;
+    background-color: rgb(239, 239, 239);
+}
+
+.invitation-text{
+    margin-top: 1rem;
+}
